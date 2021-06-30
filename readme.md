@@ -20,6 +20,6 @@ Modeling
 	- muse_rhythm_classifier.py
 		- Takes tabular data on patient demographics and signals calculated by GEMuse ECG tool and runs neural network for rhythm diagnosis classification. 
 	- cnn_waveforms.py
-		- Loads full 12 lead waveform timeseries data(12*5000) and feeds into convolution model to learn
+		- Loads full 11 lead waveform timeseries data(12*5000) and feeds into convolution model to learn
 		  how to calculate QTC interval and predict diagnosis.
 
